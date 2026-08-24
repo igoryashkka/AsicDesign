@@ -662,37 +662,37 @@ Everything described above (CPU, AXI Interconnect, peripherals, address map) is 
 
 Open the IP Catalog and search for the processor IP (e.g. `mic` to find **MicroBlaze**, or the equivalent Zynq Processing System IP).
 
-![Searching for MicroBlaze IP in the IP Catalog](img/mic.jpg)
+![Searching for MicroBlaze IP in the IP Catalog](img/img_MicroBlaze/mic.jpg)
 
 ## 6.2 Add IP to the block design
 
 Inside the Block Design canvas, right‑click and choose **Add IP…** to insert a new IP core (CPU, interconnect, or peripheral) into the diagram.
 
-![Adding an IP core via the Block Design right-click menu](img/add_ip_vivado.jpg)
+![Adding an IP core via the Block Design right-click menu](img/img_MicroBlaze/add_ip_vivado.jpg)
 
 ## 6.3 Connect the CPU to the AXI Interconnect
 
 The CPU's AXI master port(s) are wired through an **AXI Interconnect** to the peripherals and to the Processing System (for a Zynq-based design). This is the same routing concept explained in Section 5.1 — here it is shown as it actually looks in the Block Design diagram.
 
-![AXI Interconnect wired between the CPU and the Zynq Processing System](img/cpu_interconnect.jpg)
+![AXI Interconnect wired between the CPU and the Zynq Processing System](img/img_MicroBlaze/cpu_interconnect.jpg)
 
 ## 6.4 Configure the Interconnect — Slave Interfaces
 
 Double‑click the AXI Interconnect IP to re‑customize it. On the **Slave Interfaces** tab you configure how many AXI slave ports the interconnect exposes toward the CPU (master) side, and options such as register slices / data FIFOs.
 
-![AXI Interconnect re-customization — Slave Interfaces tab](img/slave_ports.jpg)
+![AXI Interconnect re-customization — Slave Interfaces tab](img/img_MicroBlaze/slave_ports.jpg)
 
 ## 6.5 Configure the Interconnect — Master Interfaces
 
 On the **Master Interfaces** tab you configure the AXI master ports going out to each peripheral (M00_AXI, M01_AXI, …). Each of these master ports will later be connected to one peripheral (FIFO, GPIO, UART, etc.).
 
-![AXI Interconnect re-customization — Master Interfaces tab](img/master_ports.jpg)
+![AXI Interconnect re-customization — Master Interfaces tab](img/img_MicroBlaze/master_ports.jpg)
 
 ## 6.6 Assign the address map
 
 Finally, open the **Address Editor** tab in Vivado. This is where the address ranges from Section 5.2 are actually assigned: each peripheral connected to the interconnect gets a base address and a range, exactly like the `FIFO_BASE`, `axi_iic_main`, `axi_spi`, etc. addresses used later in the C code.
 
-![Vivado Address Editor showing base addresses assigned to peripherals](img/addres_map.jpg)
+![Vivado Address Editor showing base addresses assigned to peripherals](img/img_MicroBlaze/addres_map.jpg)
 
 ---
 

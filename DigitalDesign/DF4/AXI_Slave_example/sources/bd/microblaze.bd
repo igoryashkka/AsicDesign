@@ -585,8 +585,8 @@
           "xbar": {
             "vlnv": "xilinx.com:ip:axi_crossbar:2.1",
             "ip_revision": "38",
-            "xci_name": "microblaze_microblaze_0_axi_periph_upgraded_ipi_imp_xbar_0",
-            "xci_path": "ip\\microblaze_microblaze_0_axi_periph_upgraded_ipi_imp_xbar_0\\microblaze_microblaze_0_axi_periph_upgraded_ipi_imp_xbar_0.xci",
+            "xci_name": "microblaze_microblaze_0_axi_periph_imp_xbar_0",
+            "xci_path": "ip\\microblaze_microblaze_0_axi_periph_imp_xbar_0\\microblaze_microblaze_0_axi_periph_imp_xbar_0.xci",
             "inst_hier_path": "microblaze_0_axi_periph/xbar",
             "has_run_ip_tcl": "true",
             "parameters": {
@@ -1122,8 +1122,8 @@
       "top_0": {
         "vlnv": "xilinx.com:module_ref:top:1.0",
         "ip_revision": "1",
-        "xci_name": "microblaze_top_0_1",
-        "xci_path": "ip\\microblaze_top_0_1\\microblaze_top_0_1.xci",
+        "xci_name": "microblaze_top_0_0",
+        "xci_path": "ip\\microblaze_top_0_0\\microblaze_top_0_0.xci",
         "inst_hier_path": "top_0",
         "has_run_ip_tcl": "true",
         "reference_info": {
@@ -1162,8 +1162,8 @@
       "top_1": {
         "vlnv": "xilinx.com:module_ref:top:1.0",
         "ip_revision": "1",
-        "xci_name": "microblaze_top_0_3",
-        "xci_path": "ip\\microblaze_top_0_3\\microblaze_top_0_3.xci",
+        "xci_name": "microblaze_top_1_0",
+        "xci_path": "ip\\microblaze_top_1_0\\microblaze_top_1_0.xci",
         "inst_hier_path": "top_1",
         "has_run_ip_tcl": "true",
         "parameters": {
