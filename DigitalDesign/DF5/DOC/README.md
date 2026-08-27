@@ -9,7 +9,7 @@
 | Файл | Навіщо | Статус |
 |---|---|---|
 | [`MicroBlaze.md`](MicroBlaze.md) | Теорія: що таке MicroBlaze, навіщо він, як CPU через AXI Interconnect ходить у регістри периферії (з прикладами на C). Читати першим, якщо AXI/адресний простір ще не звичні. | готово |
-| [`VivadoFlow.md`](VivadoFlow.md) | Практика: покрокова інструкція по Vivado — генерація проєкту скриптами, Block Design, підключення MicroBlaze, HDL wrapper, експорт `.xsa`. Що конкретно клацати, зі скріншотами. | готово |
+| [`VivadoFlow.md`](VivadoFlow.md) | Практика: покрокова інструкція по Vivado — генерація проєкту скриптами, Block Design, підключення MicroBlaze, HDL wrapper, експорт `.xsa`. | готово |
 | [`VitisFlow.md`](VitisFlow.md) | Практика: як з `.xsa` створити Platform/Application Component у Vitis, типові пастки (не той `.xsa`/CPU, забутий `main.c`) і звірка адрес з `xparameters.h` проти Vivado. | готово |
 | [`FSK.md`](FSK.md) | Теорія: що таке FSK (Frequency-Shift Keying) і чому саме цей варіант модуляції обраний як "дуже спрощений" для DF5. | TODO — заготовка |
 
